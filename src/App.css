@@ -1,38 +1,116 @@
-.App {
-  text-align: center;
+body
+{
+  background-color: black;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading
+{
+  color: white;
+  margin-left: 410px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  
+}
+.sub-heading 
+{
+  color: white;
+  margin-left: 410px;
+  font-family: "Manrope", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200;
+  font-size:20px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.exchange-box
+{
+  background-color:#0c0d20;
+  height: 300px;
+  border-radius: 30px;
+  width:900px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+.col
+{
+  margin-top:80px;
+ 
+
+}
+#amount
+{
+  text-align: left;
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size:20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-control
+{
+  width:200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-select
+{
+  width:200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+.content-1
+{
+  margin-left: 50px;
+}
+
+.content-2
+{
+  margin-left: 35px;
+}
+
+.button
+{
+  margin-top: 60px;
+  width: 300px;
+  margin-left: -10px;
+}
+
+.result-box
+{
+
+  width:600px;
+  height: 150px;
+  margin-top: 30px;
+  border-radius: 30px;
+  
+  color: white;
+  background-color:#0c0d20
+}
+
+.h_1
+{
+  font-family:"Manrope", sans-serif;
+  font-weight: 400;
+  padding-left: 30px;
+  padding-top: 30px;
+  color:gray;
+
+}
+
+.h_2
+{
+  font-family:"Manrope", sans-serif;
+  font-weight: 800;
+  padding-left: 30px;
+  
+  color:white;
+}
+
+
+
+
+
+
+
